@@ -75,12 +75,6 @@ function removeFromCart(item) {
     }
     i++;
   }
-  if(founded == true){
-    
-  }
-  else{
-    
-  }
   console.log(tempTxt);
   return cart
 }
