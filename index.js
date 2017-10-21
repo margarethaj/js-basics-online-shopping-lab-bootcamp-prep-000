@@ -82,7 +82,11 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   // write your code here
+  if(cardNumber == null){
+    console.log("doesn't place the order if a credit card number is not provided")
+  }
 }
+placeOrder()
 /*
 addToCart("a")
 addToCart("b")
