@@ -69,6 +69,7 @@ function removeFromCart(item) {
     if(itemName == item){
       founded = true
       delete cart[i][item];
+      cart.splice(i, 1);
     }
     i++;
   }
