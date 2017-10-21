@@ -67,6 +67,7 @@ function removeFromCart(item) {
   tempTxt = "That item is not in your cart."
   while(i == 0 && i < cart.length && founded == false){
     let itemName = Object.keys(cart[i])
+    console.log(itemName)
     if(itemName == item){
       founded = true
       delete cart[i][item];
