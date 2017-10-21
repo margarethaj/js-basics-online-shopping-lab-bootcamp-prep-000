@@ -87,7 +87,7 @@ function placeOrder(cardNumber) {
   // write your code here
 }
 
-/*addToCart("a")
+addToCart("a")
 addToCart("b")
 addToCart("c")
 viewCart()
@@ -95,4 +95,4 @@ total()
 removeFromCart("a")
 console.log(cart)
 removeFromCart("a")
-console.log(cart)*/
+console.log(cart)
