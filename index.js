@@ -83,7 +83,7 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   // write your code here
 }
-
+/*
 addToCart("a")
 addToCart("b")
 addToCart("c")
@@ -92,4 +92,4 @@ total()
 removeFromCart("b")
 console.log(cart)
 removeFromCart("d")
-console.log(cart)
+console.log(cart)*/
