@@ -92,6 +92,7 @@ function placeOrder(cardNumber) {
   }
 }
 placeOrder()
+placeOrder("123")
 /*
 addToCart("a")
 addToCart("b")
