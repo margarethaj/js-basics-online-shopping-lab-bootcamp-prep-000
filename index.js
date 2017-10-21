@@ -91,9 +91,9 @@ function placeOrder(cardNumber) {
     console.log(`Your total cost is $${cartTotal}, which will be charged to the card ${cardNumber}.`)
   }
 }
-placeOrder()
+/*placeOrder()
 placeOrder("123")
-/*
+
 addToCart("a")
 addToCart("b")
 addToCart("c")
