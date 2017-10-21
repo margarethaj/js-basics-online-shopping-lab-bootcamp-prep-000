@@ -87,7 +87,8 @@ function placeOrder(cardNumber) {
     return "doesn't place the order if a credit card number is not provided"
   }
   else{
-    
+    const cartTotal = total()
+    console.log(`Your total cost is $${cartTotal}, which will be charged to the card ${cardNumber}.`)
   }
 }
 placeOrder()
