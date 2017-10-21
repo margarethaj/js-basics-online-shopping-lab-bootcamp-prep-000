@@ -74,7 +74,7 @@ function removeFromCart(item) {
       cart.splice(i, 1);
       tempTxt = `${item} is removed.`
     }
-    i+=;
+    i = i + 1;
   }
   console.log(tempTxt);
   return cart
