@@ -64,20 +64,22 @@ function removeFromCart(item) {
   var tempTxt = ""
   var i = 0
   var founded = false
+  tempTxt = "That item is not in your cart."
   while(i == 0 && i < cart.length && founded == false){
     let itemName = Object.keys(cart[i])
     if(itemName == item){
       founded = true
       delete cart[i][item];
       cart.splice(i, 1);
+      tempTxt = `${item} is removed.`
     }
     i++;
   }
   if(founded == true){
-    tempTxt = `${item} is removed.`
+    
   }
   else{
-    tempTxt = "That item is not in your cart."
+    
   }
   console.log(tempTxt);
   return cart
